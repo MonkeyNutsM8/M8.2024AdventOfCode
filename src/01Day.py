@@ -7,9 +7,9 @@ def test_print(msg, var):
         print(f"{msg}: {var}")  
 
 
-file = "D:/Projects/M8.CodeOfAdvent2024/data/codeOfAdventCopySimple.csv" #baby steps :)
-#file = "D:/Projects/M8.CodeOfAdvent2024/data/codeOfAdventCopy.csv" #bigger practice
-#file = "D:/Projects/M8.CodeOfAdvent2024/data/codeOfAdvent.csv" #real data
+file = "D:/Projects/M8.CodeOfAdvent2024/data/01DayData/codeOfAdventCopySimple.csv" #baby steps :)
+#file = "D:/Projects/M8.CodeOfAdvent2024/data/01DayData/codeOfAdventCopy.csv" #bigger practice
+#file = "D:/Projects/M8.CodeOfAdvent2024/data/01DayData/codeOfAdvent.csv" #real data
 
 reader = csv.reader(file)
 

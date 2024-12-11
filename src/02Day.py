@@ -30,9 +30,9 @@ def process_file(filename):
     print(f"Unsafe rows: {unsafe_count}")
 
 # File path
-filename = "D:/Projects/M8.CodeOfAdvent2024/data/codeOfAdventCopySimple.csv" #baby steps :)
-#filename = "D:/Projects/M8.CodeOfAdvent2024/data/codeOfAdventCopy.csv" #bigger practice
-#filename = "D:/Projects/M8.CodeOfAdvent2024/data/codeOfAdvent.csv" #real data
+filename = "D:/Projects/M8.CodeOfAdvent2024/data/02DayData/codeOfAdventCopySimple.csv" #baby steps :)
+#filename = "D:/Projects/M8.CodeOfAdvent2024/data/02DayData/codeOfAdventCopy.csv" #bigger practice
+#filename = "D:/Projects/M8.CodeOfAdvent2024/data/02DayData/codeOfAdvent.csv" #real data
 
 # Process the file
 process_file(filename)
