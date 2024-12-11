@@ -15,7 +15,7 @@ reader = csv.reader(file)
 
 list1 = []
 list2 = []
-
+    
 counter = 0
 
 
