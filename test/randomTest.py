@@ -1,7 +1,7 @@
 import re
 
 # Input string with various characters and 'mul(<number>,<number>)'
-input_string = '32&*£%mUl%(*(123,562)£"FHKAmul(234,43)2*%£mul(23,543)'
+input_string = 'xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))'
 
 # Regular expression pattern (matches 'mul(number,number)')
 pattern = r'mul\((\d+),(\d+)\)'  # Capture the numbers inside the parentheses
